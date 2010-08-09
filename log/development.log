@@ -1017,3 +1017,51 @@ Completed in 546ms (View: 3, DB: 0) | 200 OK [http://localhost/users/register_us
 Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 00:37:10) [GET]
 Rendering users/register_user
 Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 00:59:29) [GET]
+Rendering users/register_user
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 00:59:35) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"xo4vv89q13tHVKSgcZqc+TL8cfo/jeImJRUXFwdLfKo=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 07:59:35', '2010-08-09 07:59:35', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+Redirected to http://localhost:3000/users/show_embedCode
+Completed in 414ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing UsersController#show_embedCode (for 127.0.0.1 at 2010-08-09 00:59:35) [GET]
+Rendering users/show_embedCode
+
+ActionView::TemplateError (undefined local variable or method `final_value' for #<ActionView::Base:0x103665950>) on line #2 of app/views/users/show_embedCode.html.erb:
+1: <h1>Hello world!!!</h1>
+2: <p><%= final_value %> </p>
+
+    app/views/users/show_embedCode.html.erb:2
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (112.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 00:59:58) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"xo4vv89q13tHVKSgcZqc+TL8cfo/jeImJRUXFwdLfKo=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 07:59:58', '2010-08-09 07:59:58', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+Redirected to http://localhost:3000/users/show_embedCode
+Completed in 563ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing UsersController#show_embedCode (for 127.0.0.1 at 2010-08-09 00:59:59) [GET]
+Rendering users/show_embedCode
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/users/show_embedCode]
