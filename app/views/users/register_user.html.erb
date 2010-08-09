@@ -1,0 +1,9 @@
+<%= form_tag :action=> "register_user" %>
+                       <h3>G33k Score</h3>
+                       <label for="user_email_id">Email:</label><br/>
+                       <%= text_field "user", "email_id", :size => 20 %><br/>
+                       <label for="user_stackoverflow_id">Stackoverflow URL:</label><br/>
+                       <%= text_field "user", "stackoverflow_id", :size => 20 %><br/>
+                       <label for="user_github_id">Github:</label><br/>
+                       <%= text_field "user", "github_id", :size => 20 %><br/>
+<%= submit_tag "Submit" %>

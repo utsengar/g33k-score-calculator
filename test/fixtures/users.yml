@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  github_id: 
+  stackoverflow_id: 
+  email: 
+
+two:
+  github_id: 
+  stackoverflow_id: 
+  email: 

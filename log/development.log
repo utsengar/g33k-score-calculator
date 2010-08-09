@@ -67,3 +67,491 @@ Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-08-07 13:59:4
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
 Completed in 158ms (View: 18, DB: 18) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-08-07 14:03:14) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 67ms (View: 2, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-08-07 15:33:27) [GET]
+  [4;36;1mSQL (15.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 103ms (View: 3, DB: 16) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-08-08 14:05:13) [GET]
+  [4;36;1mSQL (16.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 148ms (View: 17, DB: 17) | 200 OK [http://localhost/rails/info/properties]
+  [4;36;1mSQL (2.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100809023132)
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100809023132')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:42:56) [GET]
+Rendering users/register_user
+Completed in 63ms (View: 61, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:43:48) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:43:53) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"kjbjb", "stackoverflow_id"=>"jkjk", "email"=>"utkarsh"}}
+Rendering users/register_user
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:45:52) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"kjbjb", "stackoverflow_id"=>"jkjk", "email"=>"utkarsh"}}
+
+ActiveRecord::UnknownAttributeError (unknown attribute: github_id):
+  app/controllers/users_controller.rb:3:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:46:13) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"kjbjb", "stackoverflow_id"=>"jkjk", "email"=>"utkarsh"}}
+
+ActiveRecord::UnknownAttributeError (unknown attribute: github_id):
+  app/controllers/users_controller.rb:3:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (106.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:46:16) [GET]
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at") VALUES('2010-08-09 02:46:16', '2010-08-09 02:46:16')[0m
+Rendering users/register_user
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:46:30) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"zengr", "email"=>"utkarsh2012@gmail.com"}}
+
+ActiveRecord::UnknownAttributeError (unknown attribute: github_id):
+  app/controllers/users_controller.rb:3:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:51:49) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"zengr", "email"=>"utkarsh2012@gmail.com"}}
+Rendering users/register_user
+Completed in 70ms (View: 67, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:51:49) [GET]
+Rendering users/register_user
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:51:54) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"dfgfdg", "stackoverflow_id"=>"fdgdfg", "email"=>"dfgdfg"}}
+Rendering users/register_user
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:52:34) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"dfgfdg", "stackoverflow_id"=>"fdgdfg", "email"=>"dfgdfg"}}
+
+ActiveRecord::UnknownAttributeError (unknown attribute: github_id):
+  app/controllers/users_controller.rb:3:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.6ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:52:59) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"dfgfdg", "stackoverflow_id"=>"fdgdfg", "email"=>"dfgdfg"}}
+
+ActiveRecord::UnknownAttributeError (unknown attribute: email):
+  app/controllers/users_controller.rb:3:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:53:29) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"dfgfdg", "stackoverflow_id"=>"fdgdfg", "email"=>"dfgdfg"}}
+Rendering users/register_user
+Completed in 64ms (View: 62, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:53:32) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"", "stackoverflow_id"=>"", "email"=>"fhdfhgfdghdf"}}
+Rendering users/register_user
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:55:06) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"", "stackoverflow_id"=>"", "email"=>"fhdfhgfdghdf"}}
+
+NoMethodError (undefined method `email=' for #<User id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/users_controller.rb:4:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.7ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:55:24) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"kjsdkjfsd", "stackoverflow_id"=>"jksdfkjs", "email"=>"dha"}}
+
+NoMethodError (undefined method `email=' for #<User id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/users_controller.rb:4:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.5ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.7ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100809023132)
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100809023132')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:57:41) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"kjsdkjfsd", "stackoverflow_id"=>"jksdfkjs", "email"=>"dha"}}
+
+NoMethodError (undefined method `email=' for #<User id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/users_controller.rb:4:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.7ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:58:25) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"kjsdkjfsd", "stackoverflow_id"=>"jksdfkjs", "email"=>"dha"}}
+
+NoMethodError (undefined method `email_id=' for #<User id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/users_controller.rb:4:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 19:58:59) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"kjsdkjfsd", "stackoverflow_id"=>"jksdfkjs", "email"=>"dha"}}
+
+NoMethodError (undefined method `email_id=' for #<User id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/users_controller.rb:4:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.6ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at") VALUES('2010-08-09 02:59:46', '2010-08-09 02:59:46')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (361.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100809023132)
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "github_id" varchar(255), "stackoverflow_id" varchar(255), "email_id" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100809023132')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 20:02:17) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"kjsdkjfsd", "stackoverflow_id"=>"jksdfkjs", "email"=>"dha"}}
+
+ActiveRecord::UnknownAttributeError (unknown attribute: email):
+  app/controllers/users_controller.rb:3:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.7ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100809023132)
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "github_id" varchar(255), "stackoverflow_id" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100809023132')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100809023132)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 20:04:12) [GET]
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email") VALUES('2010-08-09 03:04:12', '2010-08-09 03:04:12', NULL, NULL, NULL)[0m
+Rendering users/register_user
+Completed in 74ms (View: 66, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 20:04:21) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"myoGqCf5ZrIUrHgNJ+Z9olOfXuQIKGUvUgEvb1gaR4U=", "user"=>{"github_id"=>"sdfdsfsd", "stackoverflow_id"=>"sdfdsfds", "email"=>"sdfdsf"}}
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email") VALUES('2010-08-09 03:04:21', '2010-08-09 03:04:21', 'sdfdsfsd', 'sdfdsfds', 'sdfdsf')[0m
+Rendering users/register_user
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/users/register_user]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.6ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100809023132)
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "github_id" varchar(255), "stackoverflow_id" varchar(255), "email_id" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100809023132')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 20:06:07) [GET]
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 03:06:07', '2010-08-09 03:06:07', NULL, NULL, NULL)[0m
+Rendering users/register_user
+Completed in 73ms (View: 64, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-08 20:06:17) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"s2nkEolbFYZ263F15BFZTqTFA9xIfJ9xjaayoCBQYbE=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 03:06:17', '2010-08-09 03:06:17', 'utkarsh2012', 'zengr', 'utkarsh2012@gmail.com')[0m
+Rendering users/register_user
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/users/register_user]
