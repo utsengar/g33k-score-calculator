@@ -1065,3 +1065,180 @@ Completed in 563ms (DB: 0) | 302 Found [http://localhost/]
 Processing UsersController#show_embedCode (for 127.0.0.1 at 2010-08-09 00:59:59) [GET]
 Rendering users/show_embedCode
 Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/users/show_embedCode]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:02:05) [GET]
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:02:10) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"xo4vv89q13tHVKSgcZqc+TL8cfo/jeImJRUXFwdLfKo=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 08:02:10', '2010-08-09 08:02:10', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+Redirected to http://localhost:3000/users/show_embedCode
+Completed in 547ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing UsersController#show_embedCode (for 127.0.0.1 at 2010-08-09 01:02:10) [GET]
+Rendering users/show_embedCode
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/users/show_embedCode]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:09:49) [GET]
+Rendering users/register_user
+Completed in 127ms (View: 125, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:09:54) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"OpVTve47rB+nNOYEV+c3SFg6Ecd8mA0JKPbpORCRyLg=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 08:09:54', '2010-08-09 08:09:54', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+
+NoMethodError (undefined method `Render' for #<UsersController:0x103897138>):
+  app/controllers/users_controller.rb:14:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:10:10) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"OpVTve47rB+nNOYEV+c3SFg6Ecd8mA0JKPbpORCRyLg=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 08:10:10', '2010-08-09 08:10:10', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+
+ActionView::MissingTemplate (Missing template users/final_value.erb in view path app/views):
+  app/controllers/users_controller.rb:14:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:11:21) [GET]
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:11:27) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"4Euf0dnaGeVMBT7bN1f6UqvwLh/C7jnbgkommHSShrY=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 08:11:27', '2010-08-09 08:11:27', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+
+NameError (undefined local variable or method `final_value' for #<UsersController:0x103568e30>):
+  app/controllers/users_controller.rb:14:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:11:56) [GET]
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:12:01) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"4Euf0dnaGeVMBT7bN1f6UqvwLh/C7jnbgkommHSShrY=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 08:12:01', '2010-08-09 08:12:01', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+Rendering users/register_user
+Completed in 413ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:13:14) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:13:19) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"4Euf0dnaGeVMBT7bN1f6UqvwLh/C7jnbgkommHSShrY=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 08:13:19', '2010-08-09 08:13:19', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+Rendering users/register_user
+Completed in 553ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:14:55) [GET]
+Rendering users/register_user
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:15:00) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"4Euf0dnaGeVMBT7bN1f6UqvwLh/C7jnbgkommHSShrY=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 08:15:00', '2010-08-09 08:15:00', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+Redirected to http://localhost:3000/users/show_embedCode
+Completed in 546ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing UsersController#show_embedCode (for 127.0.0.1 at 2010-08-09 01:15:01) [GET]
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:15:35) [GET]
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:15:41) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"4Euf0dnaGeVMBT7bN1f6UqvwLh/C7jnbgkommHSShrY=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 08:15:41', '2010-08-09 08:15:41', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+Rendering users/register_user
+Completed in 624ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:17:07) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"4Euf0dnaGeVMBT7bN1f6UqvwLh/C7jnbgkommHSShrY=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 08:17:07', '2010-08-09 08:17:07', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+Rendering users/register_user
+Completed in 733ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:17:21) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 01:17:29) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"4Euf0dnaGeVMBT7bN1f6UqvwLh/C7jnbgkommHSShrY=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 08:17:29', '2010-08-09 08:17:29', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+Rendering users/register_user
+Completed in 665ms (View: 3, DB: 0) | 200 OK [http://localhost/]

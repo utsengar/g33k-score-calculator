@@ -10,9 +10,8 @@ class UsersController < ApplicationController
      user = User.create(params[:user]) #user saved in database
      geek_score = service_call(params[:user][:stackoverflow_id], params[:user][:github_id])
      
-     final_value = calculate_score(geek_score)
-     flash[:message]  = final_value
-     redirect_to :action => 'show_embedCode'
+     @final_value = calculate_score(geek_score)
+     #redirect_to :action => 'show_embedCode'
     end
     
   end
