@@ -1000,3 +1000,15 @@ Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 00:22:49) 
   [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 07:22:49', '2010-08-09 07:22:49', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
 Rendering users/register_user
 Completed in 530ms (View: 3, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 00:34:31) [GET]
+Rendering users/register_user
+Completed in 74ms (View: 72, DB: 0) | 200 OK [http://localhost/users/register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-09 00:34:42) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"xo4vv89q13tHVKSgcZqc+TL8cfo/jeImJRUXFwdLfKo=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "email_id"=>"utkarsh2012@gmail.com"}}
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "github_id", "stackoverflow_id", "email_id") VALUES('2010-08-09 07:34:42', '2010-08-09 07:34:42', 'utkarsh2012', 'http://stackoverflow.com/users/231917/zengr', 'utkarsh2012@gmail.com')[0m
+Rendering users/register_user
+Completed in 546ms (View: 3, DB: 0) | 200 OK [http://localhost/users/register_user]
