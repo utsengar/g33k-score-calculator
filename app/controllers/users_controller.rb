@@ -11,7 +11,7 @@ class UsersController < ApplicationController
      geek_score = service_call(params[:user][:stackoverflow_id], params[:user][:github_id])
      
      final_value = calculate_score(geek_score)
-     puts final_value
+     flash[:message]  = final_value
      redirect_to :action => 'show_embedCode'
     end
     
