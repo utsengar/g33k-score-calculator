@@ -1,5 +1,5 @@
 require 'curb'
-require 'JSON'
+require 'json'
 require "active_support/all"
 
 class UsersController < ApplicationController
