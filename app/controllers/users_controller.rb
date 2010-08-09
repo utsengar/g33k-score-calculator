@@ -2,8 +2,8 @@ require 'curb'
 
 class UsersController < ApplicationController
   def register_user
-    user = User.create(params[:user]) #user saved in database
-    service_call(params[:user][:stackoverflow_id], params[:user][:github_id])
+    #user = User.create(params[:user]) #user saved in database
+    #service_call(params[:user][:stackoverflow_id], params[:user][:github_id])
     
   end
   
