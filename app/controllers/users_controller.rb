@@ -13,7 +13,7 @@ class UsersController < ApplicationController
     
     final_value = calculate_score(geek_score)
     puts final_value
-    #redirect_to :action => 'show_embedCode'
+    redirect_to :action => 'show_embedCode'
     
   end
   
