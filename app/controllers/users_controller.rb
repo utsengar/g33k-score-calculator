@@ -3,23 +3,14 @@ require 'json'
 require "active_support/all"
 
 class UsersController < ApplicationController
+  
   #Point of entry
   def register_user
-    
     if(!params[:user].nil?)
-     user = User.create(params[:user]) #user saved in database
+     #user = User.create(params[:user]) #user saved in database
      geek_score = service_call(params[:user][:stackoverflow_id], params[:user][:github_id])
-     
      @final_value = calculate_score(geek_score)
-     #redirect_to :action => 'show_embedCode'
     end
-    
-  end
-  
-  #Show the final embed code with g33k score!
-  def show_embedCode
-    
-    
   end
   
   private
@@ -79,6 +70,4 @@ class UsersController < ApplicationController
     
     return geek_score
   end
-
-
 end

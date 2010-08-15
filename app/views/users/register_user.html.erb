@@ -1,13 +1,74 @@
-<%= form_tag :action=> "register_user" %>
-                       <h3>G33k Score</h3>
-                       <label for="user_email_id">Email:</label><br/>
-                       <%= text_field "user", "email_id", :size => 20 %><br/>
-                       <label for="user_stackoverflow_id">Stackoverflow URL:</label><br/>
-                       <%= text_field "user", "stackoverflow_id", :size => 20 %><br/>
-                       <label for="user_github_id">Github:</label><br/>
-                       <%= text_field "user", "github_id", :size => 20 %><br/>
-<%= submit_tag "Submit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Motion</title>
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" />
+<script type="text/javascript" src="javascripts/accordian.pack.js"></script>
+</head>
 
-<br/>
-<label>Your g33k score (x/10)</label><br/>
-<%= @final_value %>
+<body onload="new Accordian('accordian',3,'header_highlight');">
+<div id="header">
+<h1><a href="#">g33k score</a></h1>
+<h2>calculate your geek score using your reputation on stackoverflow and github</h2>
+</div>
+
+<div id="accordian" >
+<!--Start of each accordion item-->
+  <div id="test-header" class="accordion_headings header_highlight" >get your score</div>
+  <div id="test-content">
+    <div class="accordion_child">
+	
+		<%= form_tag :action=> "register_user" %>
+		                       <!--<label for="user_email_id">Email:</label><br/>-->
+		                      <!-- <%= text_field "user", "email_id", :size => 20 %><br/> -->
+		                       <label for="user_stackoverflow_id">Stackoverflow URL:</label><br/>
+		                       <%= text_field "user", "stackoverflow_id", :size => 20 %> <div id="footer">Example: http://stackoverflow.com/users/231917/zengr </div><br/>
+		                       <label for="user_github_id">Github ID:</label><br/>
+		                       <%= text_field "user", "github_id", :size => 20 %><div id="footer"> Example: utkarsh2012 </div><br/>
+		<%= submit_tag "Submit" %>
+
+		<br/>
+		<label>Your g33k score (x/10): </label><%= @final_value %><br/>
+	
+	</div>
+  </div>
+  <div id="test1-header" class="accordion_headings" >How it works?</div>
+  <div id="test1-content">
+    <div class="accordion_child">
+	You provide the your Stackoverflow.com URL and the Github.com. g33k score calculator hits the SO and Github Web services, get your SO reputation and Github repos, followers.
+    </div>
+    
+  </div>
+
+  <div id="test2-header" class="accordion_headings" >Binary <-> ASCII conversion</div>
+  <div id="test2-content">
+    <div class="accordion_child">	
+	
+    </div>
+  </div>
+
+  <div id="test3-header" class="accordion_headings" >Contact me</div>
+
+  <div id="test3-content">
+    <div class="accordion_child">
+	utkarsh2012 [at] gmail [dot] com <br>
+	utkarshsengar.com
+    </div>
+    
+  </div>
+</div>
+
+<div id="footer">
+<p class="validate"><a href="http://validator.w3.org/check?uri=referer">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/">CSS</a><br /><a href="#content">Top</a></p>		
+
+
+<!-- Please leave this line intact -->
+<p>Design: <a href="http://www.sixshootermedia.com">Six Shooter Media</a>. <br />
+AJAX: <a href="http://www.dezinerfolio.com/2007/07/19/simple-javascript-accordions/">Simple Accordions</a>. Iconography: <a href="http://www.famfamfam.com/lab/icons/silk/">FamFamFam</a>. Sponsor: <a href="http://www.yours4money.com" rel="nofollow">Casino</a><br />
+<!-- you can delete below here -->
+©Utkarsh Sengar All your copyright information here.</p>
+</div>
+
+</body>
+</html>
