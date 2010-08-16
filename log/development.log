@@ -1663,3 +1663,1291 @@ Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
 Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 14:50:21) [GET]
 Rendering users/register_user
 Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 14:57:07) [GET]
+Rendering users/register_user
+ERROR: compiling _run_erb_app47views47users47register_user46html46erb RAISED compile error
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:34: syntax error, unexpected '<'
+			<label>Your g33k score (x/10): </label>@final_value<br/>
+			 ^
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+			<label>Your g33k score (x/10): </label>@final_value<br/>
+			                ^
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:34: syntax error, unexpected ':', expecting kEND
+			<label>Your g33k score (x/10): </label>@final_value<br/>
+			                              ^
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:35: syntax error, unexpected kEND
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:76: syntax error, unexpected kENSURE, expecting kEND
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:78: syntax error, unexpected $end, expecting ')'
+Function body:           def _run_erb_app47views47users47register_user46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>g33k Score Calculator</title>\n<link rel=\"stylesheet\" href=\"stylesheets/style.css\" type=\"text/css\" media=\"screen\" />\n<script type=\"text/javascript\" src=\"javascripts/accordian.pack.js\"></script>\n</head>\n\n<body onload=\"new Accordian('accordian',3,'header_highlight');\">\n<div id=\"header\">\n<h1><a href=\"#\">g33k score</a></h1>\n<h2>calculate your geek score using your reputation on stackoverflow and github</h2>\n</div>\n\n<div id=\"accordian\" >\n<!--Start of each accordion item-->\n  <div id=\"test-header\" class=\"accordion_headings header_highlight\" >get your score</div>\n  <div id=\"test-content\">\n    <div class=\"accordion_child\">\n\t\n\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( form_tag :action=> "register_user" ).to_s); @output_buffer.concat "\n\t\t                       <!--<label for=\"user_email_id\">Email:</label><br/>-->\n\t\t                      <!-- "
+
+; @output_buffer.concat(( text_field "user", "email_id", :size => 20 ).to_s); @output_buffer.concat "<br/> -->\n\t\t                       <label for=\"user_stackoverflow_id\">Stackoverflow URL:</label><br/>\n\t\t                       "
+
+; @output_buffer.concat(( text_field "user", "stackoverflow_id", :size => 20 ).to_s); @output_buffer.concat " <div id=\"footer\">Example: http://stackoverflow.com/users/231917/zengr </div><br/>\n\t\t                       <label for=\"user_github_id\">Github ID:</label><br/>\n\t\t                       "
+
+; @output_buffer.concat(( text_field "user", "github_id", :size => 20 ).to_s); @output_buffer.concat "<div id=\"footer\"> Example: utkarsh2012 </div><br/>\n\t\t"
+; @output_buffer.concat(( submit_tag "Submit" ).to_s); @output_buffer.concat "\n\n\t\t<br/>\n\t\t"
+
+
+; @output_buffer.concat((
+		if @final_value != nil
+			<label>Your g33k score (x/10): </label>@final_value<br/>
+		end
+		 ).to_s); @output_buffer.concat "\n\t\n\t</div>\n  </div>\n  <div id=\"test1-header\" class=\"accordion_headings\" >How it works?</div>\n  <div id=\"test1-content\">\n    <div class=\"accordion_child\">\n\tYou provide the your Stackoverflow.com URL and the Github.com. g33k score calculator hits the SO and Github Web services, get your SO reputation and Github repos, followers.\n    </div>\n    \n  </div>\n\n  <div id=\"test2-header\" class=\"accordion_headings\" >Binary <-> ASCII conversion</div>\n  <div id=\"test2-content\">\n    <div class=\"accordion_child\">\t\n\t\n    </div>\n  </div>\n\n  <div id=\"test3-header\" class=\"accordion_headings\" >Contact me</div>\n\n  <div id=\"test3-content\">\n    <div class=\"accordion_child\">\n\tutkarsh2012 [at] gmail [dot] com <br>\n\tutkarshsengar.com\n    </div>\n    \n  </div>\n</div>\n\n<div id=\"footer\">\n<p class=\"validate\"><a href=\"http://validator.w3.org/check?uri=referer\">XHTML</a> | <a href=\"http://jigsaw.w3.org/css-validator/\">CSS</a><br /><a href=\"#content\">Top</a></p>\t\t\n\n\302\251<a href=\"http://utkarshsengar.com\">Utkarsh Sengar</a>.</p><br />\n<p>UI: <a href=\"http://www.sixshootermedia.com\">Six Shooter Media</a>.\n<br/>\n</div>\n\n</body>\n</html>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:78:in `compile!'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:34: syntax error, unexpected '<'
+			<label>Your g33k score (x/10): </label>@final_value<br/>
+			 ^
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+			<label>Your g33k score (x/10): </label>@final_value<br/>
+			                ^
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:34: syntax error, unexpected ':', expecting kEND
+			<label>Your g33k score (x/10): </label>@final_value<br/>
+			                              ^
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:35: syntax error, unexpected kEND
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:76: syntax error, unexpected kENSURE, expecting kEND
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:78: syntax error, unexpected $end, expecting ')') on line #34 of app/views/users/register_user.html.erb:
+31: 		<br/>
+32: 		<%=
+33: 		if @final_value != nil
+34: 			<label>Your g33k score (x/10): </label>@final_value<br/>
+35: 		end
+36: 		 %>
+37: 	
+
+    app/views/users/register_user.html.erb:78:in `compile!'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 14:57:32) [GET]
+Rendering users/register_user
+ERROR: compiling _run_erb_app47views47users47register_user46html46erb RAISED compile error
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:34: syntax error, unexpected tIVAR, expecting kEND
+			"<label>Your g33k score (x/10): </label>"@final_value"<br/>"
+			                                                     ^
+Function body:           def _run_erb_app47views47users47register_user46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>g33k Score Calculator</title>\n<link rel=\"stylesheet\" href=\"stylesheets/style.css\" type=\"text/css\" media=\"screen\" />\n<script type=\"text/javascript\" src=\"javascripts/accordian.pack.js\"></script>\n</head>\n\n<body onload=\"new Accordian('accordian',3,'header_highlight');\">\n<div id=\"header\">\n<h1><a href=\"#\">g33k score</a></h1>\n<h2>calculate your geek score using your reputation on stackoverflow and github</h2>\n</div>\n\n<div id=\"accordian\" >\n<!--Start of each accordion item-->\n  <div id=\"test-header\" class=\"accordion_headings header_highlight\" >get your score</div>\n  <div id=\"test-content\">\n    <div class=\"accordion_child\">\n\t\n\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( form_tag :action=> "register_user" ).to_s); @output_buffer.concat "\n\t\t                       <!--<label for=\"user_email_id\">Email:</label><br/>-->\n\t\t                      <!-- "
+
+; @output_buffer.concat(( text_field "user", "email_id", :size => 20 ).to_s); @output_buffer.concat "<br/> -->\n\t\t                       <label for=\"user_stackoverflow_id\">Stackoverflow URL:</label><br/>\n\t\t                       "
+
+; @output_buffer.concat(( text_field "user", "stackoverflow_id", :size => 20 ).to_s); @output_buffer.concat " <div id=\"footer\">Example: http://stackoverflow.com/users/231917/zengr </div><br/>\n\t\t                       <label for=\"user_github_id\">Github ID:</label><br/>\n\t\t                       "
+
+; @output_buffer.concat(( text_field "user", "github_id", :size => 20 ).to_s); @output_buffer.concat "<div id=\"footer\"> Example: utkarsh2012 </div><br/>\n\t\t"
+; @output_buffer.concat(( submit_tag "Submit" ).to_s); @output_buffer.concat "\n\n\t\t<br/>\n\t\t"
+
+
+; @output_buffer.concat((
+		if @final_value != nil
+			"<label>Your g33k score (x/10): </label>"@final_value"<br/>"
+		end
+		 ).to_s); @output_buffer.concat "\n\t\n\t</div>\n  </div>\n  <div id=\"test1-header\" class=\"accordion_headings\" >How it works?</div>\n  <div id=\"test1-content\">\n    <div class=\"accordion_child\">\n\tYou provide the your Stackoverflow.com URL and the Github.com. g33k score calculator hits the SO and Github Web services, get your SO reputation and Github repos, followers.\n    </div>\n    \n  </div>\n\n  <div id=\"test2-header\" class=\"accordion_headings\" >Binary <-> ASCII conversion</div>\n  <div id=\"test2-content\">\n    <div class=\"accordion_child\">\t\n\t\n    </div>\n  </div>\n\n  <div id=\"test3-header\" class=\"accordion_headings\" >Contact me</div>\n\n  <div id=\"test3-content\">\n    <div class=\"accordion_child\">\n\tutkarsh2012 [at] gmail [dot] com <br>\n\tutkarshsengar.com\n    </div>\n    \n  </div>\n</div>\n\n<div id=\"footer\">\n<p class=\"validate\"><a href=\"http://validator.w3.org/check?uri=referer\">XHTML</a> | <a href=\"http://jigsaw.w3.org/css-validator/\">CSS</a><br /><a href=\"#content\">Top</a></p>\t\t\n\n\302\251<a href=\"http://utkarshsengar.com\">Utkarsh Sengar</a>.</p><br />\n<p>UI: <a href=\"http://www.sixshootermedia.com\">Six Shooter Media</a>.\n<br/>\n</div>\n\n</body>\n</html>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:78:in `compile!'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:34: syntax error, unexpected tIVAR, expecting kEND
+			"<label>Your g33k score (x/10): </label>"@final_value"<br/>"
+			                                                     ^) on line #34 of app/views/users/register_user.html.erb:
+31: 		<br/>
+32: 		<%=
+33: 		if @final_value != nil
+34: 			"<label>Your g33k score (x/10): </label>"@final_value"<br/>"
+35: 		end
+36: 		 %>
+37: 	
+
+    app/views/users/register_user.html.erb:78:in `compile!'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 14:57:47) [GET]
+Rendering users/register_user
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 14:57:51) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+
+ActionView::TemplateError (can't convert Fixnum into String) on line #34 of app/views/users/register_user.html.erb:
+31: 		<br/>
+32: 		<%=
+33: 		if @final_value != nil
+34: 			"<label>Your g33k score (x/10): </label>" + @final_value + "<br/>"
+35: 		end
+36: 		 %>
+37: 	
+
+    app/views/users/register_user.html.erb:34:in `+'
+    app/views/users/register_user.html.erb:34
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 14:58:11) [GET]
+Rendering users/register_user
+Completed in 74ms (View: 72, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 14:58:15) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 487ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 14:59:16) [GET]
+Rendering users/register_user
+ERROR: compiling _run_erb_app47views47users47register_user46html46erb RAISED compile error
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:34: syntax error, unexpected tUPLUS, expecting kEND
+			"<label>Your g33k score: ("+ @final_value.to_s +"/10)</label><br/>"
+			                                                ^
+Function body:           def _run_erb_app47views47users47register_user46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>g33k Score Calculator</title>\n<link rel=\"stylesheet\" href=\"stylesheets/style.css\" type=\"text/css\" media=\"screen\" />\n<script type=\"text/javascript\" src=\"javascripts/accordian.pack.js\"></script>\n</head>\n\n<body onload=\"new Accordian('accordian',3,'header_highlight');\">\n<div id=\"header\">\n<h1><a href=\"#\">g33k score</a></h1>\n<h2>calculate your geek score using your reputation on stackoverflow and github</h2>\n</div>\n\n<div id=\"accordian\" >\n<!--Start of each accordion item-->\n  <div id=\"test-header\" class=\"accordion_headings header_highlight\" >get your score</div>\n  <div id=\"test-content\">\n    <div class=\"accordion_child\">\n\t\n\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( form_tag :action=> "register_user" ).to_s); @output_buffer.concat "\n\t\t                       <!--<label for=\"user_email_id\">Email:</label><br/>-->\n\t\t                      <!-- "
+
+; @output_buffer.concat(( text_field "user", "email_id", :size => 20 ).to_s); @output_buffer.concat "<br/> -->\n\t\t                       <label for=\"user_stackoverflow_id\">Stackoverflow URL:</label><br/>\n\t\t                       "
+
+; @output_buffer.concat(( text_field "user", "stackoverflow_id", :size => 20 ).to_s); @output_buffer.concat " <div id=\"footer\">Example: http://stackoverflow.com/users/231917/zengr </div><br/>\n\t\t                       <label for=\"user_github_id\">Github ID:</label><br/>\n\t\t                       "
+
+; @output_buffer.concat(( text_field "user", "github_id", :size => 20 ).to_s); @output_buffer.concat "<div id=\"footer\"> Example: utkarsh2012 </div><br/>\n\t\t"
+; @output_buffer.concat(( submit_tag "Submit" ).to_s); @output_buffer.concat "\n\n\t\t<br/>\n\t\t"
+
+
+; @output_buffer.concat((
+		if @final_value != nil
+			"<label>Your g33k score: ("+ @final_value.to_s +"/10)</label><br/>"
+		end
+		 ).to_s); @output_buffer.concat "\n\t\n\t</div>\n  </div>\n  <div id=\"test1-header\" class=\"accordion_headings\" >How it works?</div>\n  <div id=\"test1-content\">\n    <div class=\"accordion_child\">\n\tYou provide the your Stackoverflow.com URL and the Github.com. g33k score calculator hits the SO and Github Web services, get your SO reputation and Github repos, followers.\n    </div>\n    \n  </div>\n\n  <div id=\"test2-header\" class=\"accordion_headings\" >Binary <-> ASCII conversion</div>\n  <div id=\"test2-content\">\n    <div class=\"accordion_child\">\t\n\t\n    </div>\n  </div>\n\n  <div id=\"test3-header\" class=\"accordion_headings\" >Contact me</div>\n\n  <div id=\"test3-content\">\n    <div class=\"accordion_child\">\n\tutkarsh2012 [at] gmail [dot] com <br>\n\tutkarshsengar.com\n    </div>\n    \n  </div>\n</div>\n\n<div id=\"footer\">\n<p class=\"validate\"><a href=\"http://validator.w3.org/check?uri=referer\">XHTML</a> | <a href=\"http://jigsaw.w3.org/css-validator/\">CSS</a><br /><a href=\"#content\">Top</a></p>\t\t\n\n\302\251<a href=\"http://utkarshsengar.com\">Utkarsh Sengar</a>.</p><br />\n<p>UI: <a href=\"http://www.sixshootermedia.com\">Six Shooter Media</a>.\n<br/>\n</div>\n\n</body>\n</html>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:78:in `compile!'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:34: syntax error, unexpected tUPLUS, expecting kEND
+			"<label>Your g33k score: ("+ @final_value.to_s +"/10)</label><br/>"
+			                                                ^) on line #34 of app/views/users/register_user.html.erb:
+31: 		<br/>
+32: 		<%=
+33: 		if @final_value != nil
+34: 			"<label>Your g33k score: ("+ @final_value.to_s +"/10)</label><br/>"
+35: 		end
+36: 		 %>
+37: 	
+
+    app/views/users/register_user.html.erb:78:in `compile!'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 14:59:42) [GET]
+Rendering users/register_user
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 14:59:47) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 547ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:01:15) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:01:18) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 484ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:01:31) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}}
+
+TypeError (can't convert nil into String):
+  app/controllers/users_controller.rb:21:in `+'
+  app/controllers/users_controller.rb:21:in `service_call'
+  app/controllers/users_controller.rb:11:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:01:38) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"dfgfdg", "stackoverflow_id"=>"fdgdfg"}}
+
+TypeError (can't convert nil into String):
+  app/controllers/users_controller.rb:21:in `+'
+  app/controllers/users_controller.rb:21:in `service_call'
+  app/controllers/users_controller.rb:11:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (100.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#register_user (for 127.0.0.1 at 2010-08-15 15:10:12) [GET]
+
+SyntaxError (/Users/utkarsh/dev/rails/g33k-app/app/controllers/users_controller.rb:42: syntax error, unexpected kELSIF, expecting kEND
+      elsif(reputation >= 100)
+           ^
+/Users/utkarsh/dev/rails/g33k-app/app/controllers/users_controller.rb:45: syntax error, unexpected kELSIF, expecting kEND
+      elsif(reputation < 100)
+           ^
+/Users/utkarsh/dev/rails/g33k-app/app/controllers/users_controller.rb:49: syntax error, unexpected kEND, expecting $end):
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#register_user (for 127.0.0.1 at 2010-08-15 15:10:48) [GET]
+
+SyntaxError (/Users/utkarsh/dev/rails/g33k-app/app/controllers/users_controller.rb:44: syntax error, unexpected kELSIF, expecting kEND
+      elsif(reputation < 100)
+           ^
+/Users/utkarsh/dev/rails/g33k-app/app/controllers/users_controller.rb:72: syntax error, unexpected kELSIF, expecting $end
+      elsif(followers >=2 )
+           ^):
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:11:58) [GET]
+Rendering users/register_user
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:12:10) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 492ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:12:46) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:12:50) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 380ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:14:36) [GET]
+Rendering users/register_user
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:14:39) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+
+NameError (undefined local variable or method `reputation' for #<UsersController:0x10364fb28>):
+  app/controllers/users_controller.rb:36:in `service_call'
+  app/controllers/users_controller.rb:11:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:15:31) [GET]
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:15:33) [GET]
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:15:37) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+
+NameError (undefined local variable or method `reputation' for #<UsersController:0x103766430>):
+  app/controllers/users_controller.rb:35:in `service_call'
+  app/controllers/users_controller.rb:11:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:16:57) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:17:01) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 531ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:17:17) [GET]
+Rendering users/register_user
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:17:21) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 511ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:18:20) [GET]
+Rendering users/register_user
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:18:23) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+
+ActionView::TemplateError (can't convert nil into String) on line #35 of app/views/users/register_user.html.erb:
+32: 		<%=
+33: 		if @final_value != nil
+34: 			"<h2>You are " + @final_value.to_s + "% geek!</h2><br/>"
+35: 		"Why? " + @reputation + @followers + @repos
+36: 		end
+37: 		 %>
+38: 	
+
+    app/views/users/register_user.html.erb:35:in `+'
+    app/views/users/register_user.html.erb:35
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (107.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:18:50) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:18:54) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+
+ActionView::TemplateError (can't convert nil into String) on line #35 of app/views/users/register_user.html.erb:
+32: 		<%=
+33: 		if @final_value != nil
+34: 			"<h2>You are " + @final_value.to_s + "% geek!</h2><br/>"
+35: 		"Why? " + @GH_reputation + @GH_followers + @GH_repos
+36: 		end
+37: 		 %>
+38: 	
+
+    app/views/users/register_user.html.erb:35:in `+'
+    app/views/users/register_user.html.erb:35
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:25:32) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:25:38) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+
+ActionView::TemplateError (can't convert Fixnum into String) on line #35 of app/views/users/register_user.html.erb:
+32: 		<%=
+33: 		if @final_value != nil
+34: 			"<h2>You are " + @final_value.to_s + "% geek!</h2><br/>"
+35: 		"Why? " + @so_reputation + @gh_followers + @gh_repos
+36: 		end
+37: 		 %>
+38: 	
+
+    app/views/users/register_user.html.erb:35:in `+'
+    app/views/users/register_user.html.erb:35
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:26:02) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:26:10) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 474ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:26:33) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:26:37) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 368ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:27:22) [GET]
+Rendering users/register_user
+ERROR: compiling _run_erb_app47views47users47register_user46html46erb RAISED compile error
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting kEND
+...lowers.to_s + @gh_repos.to_s "</p>"
+                              ^
+Function body:           def _run_erb_app47views47users47register_user46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>g33k Score Calculator</title>\n<link rel=\"stylesheet\" href=\"stylesheets/style.css\" type=\"text/css\" media=\"screen\" />\n<script type=\"text/javascript\" src=\"javascripts/accordian.pack.js\"></script>\n</head>\n\n<body onload=\"new Accordian('accordian',3,'header_highlight');\">\n<div id=\"header\">\n<h1><a href=\"#\">g33k score</a></h1>\n<h2>calculate your geek score using your reputation on stackoverflow and github</h2>\n</div>\n\n<div id=\"accordian\" >\n<!--Start of each accordion item-->\n  <div id=\"test-header\" class=\"accordion_headings header_highlight\" >get your score</div>\n  <div id=\"test-content\">\n    <div class=\"accordion_child\">\n\t\n\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( form_tag :action=> "register_user" ).to_s); @output_buffer.concat "\n\t\t                       <!--<label for=\"user_email_id\">Email:</label><br/>-->\n\t\t                      <!-- "
+
+; @output_buffer.concat(( text_field "user", "email_id", :size => 20 ).to_s); @output_buffer.concat "<br/> -->\n\t\t                       <label for=\"user_stackoverflow_id\">Stackoverflow URL:</label><br/>\n\t\t                       "
+
+; @output_buffer.concat(( text_field "user", "stackoverflow_id", :size => 20 ).to_s); @output_buffer.concat " <div id=\"footer\">Example: http://stackoverflow.com/users/231917/zengr </div><br/>\n\t\t                       <label for=\"user_github_id\">Github ID:</label><br/>\n\t\t                       "
+
+; @output_buffer.concat(( text_field "user", "github_id", :size => 20 ).to_s); @output_buffer.concat "<div id=\"footer\"> Example: utkarsh2012 </div><br/>\n\t\t"
+; @output_buffer.concat(( submit_tag "Submit" ).to_s); @output_buffer.concat "\n\t\t<br/>\n\t\t\n\t\t"
+
+
+; @output_buffer.concat((
+		if @final_value != nil
+			"<h2>You are " + @final_value.to_s + "% geek!</h2><br/>" + 
+			"<p> Why? " + @so_reputation.to_s + @gh_followers.to_s + @gh_repos.to_s "</p>"
+		end
+		 ).to_s); @output_buffer.concat "\n\t\n\t</div>\n  </div>\n  <div id=\"test1-header\" class=\"accordion_headings\" >How it works?</div>\n  <div id=\"test1-content\">\n    <div class=\"accordion_child\">\n\tYou provide the your Stackoverflow.com URL and the Github.com. g33k score calculator hits the SO and Github Web services, get your SO reputation and Github repos, followers.\n    </div>\n    \n  </div>\n\n  <div id=\"test2-header\" class=\"accordion_headings\" >Binary <-> ASCII conversion</div>\n  <div id=\"test2-content\">\n    <div class=\"accordion_child\">\t\n\t\n    </div>\n  </div>\n\n  <div id=\"test3-header\" class=\"accordion_headings\" >Contact me</div>\n\n  <div id=\"test3-content\">\n    <div class=\"accordion_child\">\n\tutkarsh2012 [at] gmail [dot] com <br>\n\tutkarshsengar.com\n    </div>\n    \n  </div>\n</div>\n\n<div id=\"footer\">\n<p class=\"validate\"><a href=\"http://validator.w3.org/check?uri=referer\">XHTML</a> | <a href=\"http://jigsaw.w3.org/css-validator/\">CSS</a><br /><a href=\"#content\">Top</a></p>\t\t\n\n\302\251<a href=\"http://utkarshsengar.com\">Utkarsh Sengar</a>.</p><br />\n<p>UI: <a href=\"http://www.sixshootermedia.com\">Six Shooter Media</a>.\n<br/>\n</div>\n\n</body>\n</html>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:79:in `compile!'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting kEND
+...lowers.to_s + @gh_repos.to_s "</p>"
+                              ^) on line #35 of app/views/users/register_user.html.erb:
+32: 		<%=
+33: 		if @final_value != nil
+34: 			"<h2>You are " + @final_value.to_s + "% geek!</h2><br/>" + 
+35: 			"<p> Why? " + @so_reputation.to_s + @gh_followers.to_s + @gh_repos.to_s "</p>"
+36: 		end
+37: 		 %>
+38: 	
+
+    app/views/users/register_user.html.erb:79:in `compile!'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:27:32) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:27:36) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 477ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:29:01) [GET]
+Rendering users/register_user
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:29:05) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 472ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:29:41) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 15:29:45) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 366ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:02:24) [GET]
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:02:27) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}}
+
+TypeError (can't convert nil into String):
+  app/controllers/users_controller.rb:34:in `+'
+  app/controllers/users_controller.rb:34:in `service_call'
+  app/controllers/users_controller.rb:16:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (97.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:03:14) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?):
+  app/controllers/users_controller.rb:9:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:03:27) [GET]
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:03:29) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}}
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:03:30) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}}
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:03:31) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}}
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:03:33) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}}
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:03:36) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 574ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:04:24) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}}
+Rendering users/register_user
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]

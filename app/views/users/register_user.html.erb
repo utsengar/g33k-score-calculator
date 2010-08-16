@@ -27,9 +27,17 @@
 		                       <label for="user_github_id">Github ID:</label><br/>
 		                       <%= text_field "user", "github_id", :size => 20 %><div id="footer"> Example: utkarsh2012 </div><br/>
 		<%= submit_tag "Submit" %>
-
 		<br/>
-		<label>Your g33k score (x/10): </label><%= @final_value %><br/>
+		
+		<%=
+		if @final_value != nil
+			"<h2>You are " + @final_value.to_s + "% geek!</h2>" + 
+			"<p> Why? "+ 
+			"Your Stackoverflow reputation: " + @so_reputation.to_s + "<br>" +
+			"Your Github followers: "+@gh_followers.to_s + "<br>" +
+			"Your Github Repos: "+ @gh_repos.to_s + "</p>"
+		end
+		 %>
 	
 	</div>
   </div>
