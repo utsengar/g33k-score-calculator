@@ -2951,3 +2951,525 @@ Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:04:24) 
   Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}}
 Rendering users/register_user
 Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:15:09) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:15:24) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:16:26) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:17:53) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:18:10) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}, "ascii"=>{"ascii"=>"UTKARSH"}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:18:51) [POST]
+  Parameters: {"commit"=>"Submit", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:18:52) [POST]
+  Parameters: {"commit"=>"Convert to ASCII", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:18:54) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:19:03) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}, "ascii"=>{"ascii"=>"UTKARSH"}}
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:19:43) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:20:20) [POST]
+  Parameters: {"commit"=>"Submit", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 626ms (View: 66, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#bin_to_ascii_converter (for 127.0.0.1 at 2010-08-15 17:21:22) [GET]
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#bin_to_ascii_converter (for 127.0.0.1 at 2010-08-15 17:21:30) [GET]
+  Parameters: {"id"=>"uTKARSH"}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#bin_to_ascii_converter (for 127.0.0.1 at 2010-08-15 17:21:38) [GET]
+  Parameters: {"id"=>"PARAM"}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (101.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:22:00) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:22:06) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:22:44) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:23:39) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:23:40) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:23:43) [POST]
+  Parameters: {"commit"=>"Submit", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 558ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:24:44) [POST]
+  Parameters: {"commit"=>"Submit", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 611ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:27:07) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:29:44) [GET]
+Rendering users/register_user
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:29:52) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "subject"=>{"name"=>"dccc"}, "user"=>{"github_id"=>"", "stackoverflow_id"=>""}}
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:32:43) [GET]
+Rendering users/register_user
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:33:00) [GET]
+Rendering users/register_user
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:33:12) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 585ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:33:16) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 496ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:33:35) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:33:51) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:34:54) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:35:02) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:35:06) [POST]
+  Parameters: {"commit"=>"Submit", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 601ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:35:18) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:35:23) [POST]
+  Parameters: {"commit"=>"Submit", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 526ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:35:39) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:35:43) [POST]
+  Parameters: {"commit"=>"Submit", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 437ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:36:50) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:36:55) [POST]
+  Parameters: {"commit"=>"Submit", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 645ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:37:01) [POST]
+  Parameters: {"commit"=>"Submit", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 681ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:37:07) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}, "ascii"=>{"ascii"=>"bv "}}
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:37:51) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:37:55) [POST]
+  Parameters: {"commit"=>"Submit", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}, "ascii"=>{"ascii"=>""}}
+Rendering users/register_user
+Completed in 786ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:39:02) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:39:06) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}, "ascii"=>{"ascii"=>"fdsfsdfsd"}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:40:16) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:40:20) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}, "ascii"=>{"ascii"=>"sdsdsdsd"}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:41:26) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "binary"=>{"binary"=>""}, "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}, "ascii"=>{"ascii"=>"dssdd"}}
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:42:39) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>"dssd"}}
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:43:36) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:43:42) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>"", "user"=>"", "ascii"=>"vvxcv"}}
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:44:38) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>"", "user"=>"", "ascii"=>"hello"}}
+Rendering users/register_user
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:44:53) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:45:04) [GET]
+Rendering users/register_user
+Completed in 66ms (View: 65, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:45:10) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>"UTKARSH"}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:46:26) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:46:32) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>"Hello"}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:47:04) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:47:08) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>"HELLO"}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:47:51) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 569ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:48:34) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>"HELLO"}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:49:11) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 595ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:50:16) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>"UTKARSH-SENGAR"}}
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:57:16) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:57:30) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>"UTKARSH SENGAR"}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:58:05) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 531ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:58:20) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>"hjgjgh"}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 17:59:09) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#ascii_to_bin_converter (for 127.0.0.1 at 2010-08-15 17:59:19) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "ascii"=>"HELLO"}}
+
+ActionView::MissingTemplate (Missing template users/ascii_to_bin_converter.erb in view path app/views):
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 18:00:02) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 18:00:07) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 572ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 18:00:12) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>"bb"}}
+Rendering users/register_user
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 18:00:45) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 18:00:51) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 587ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 18:00:57) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"", "stackoverflow_id"=>""}}
+Rendering users/register_user
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 18:01:02) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"sds", "stackoverflow_id"=>"fdgdfg"}}
+
+TypeError (can't convert nil into String):
+  app/controllers/users_controller.rb:46:in `+'
+  app/controllers/users_controller.rb:46:in `service_call'
+  app/controllers/users_controller.rb:16:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.3ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 18:01:12) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t5ERjMeKSv6+nAM1JJ+gcAbPCDFHPwMlOtiUhH6zN4A=", "user"=>{"github_id"=>"sdsd", "stackoverflow_id"=>"d"}}
+
+TypeError (can't convert nil into String):
+  app/controllers/users_controller.rb:46:in `+'
+  app/controllers/users_controller.rb:46:in `service_call'
+  app/controllers/users_controller.rb:16:in `register_user'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-08-15 18:01:20) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]

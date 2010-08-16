@@ -2,30 +2,30 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>g33k Score Calculator</title>
+<title>g33k.Score Calculator</title>
 <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" />
 <script type="text/javascript" src="javascripts/accordian.pack.js"></script>
 </head>
 
 <body onload="new Accordian('accordian',3,'header_highlight');">
 <div id="header">
-<h1><a href="#">g33k score</a></h1>
+<h1><a href="http://g33k.heroku.com">g33k.score</a></h1>
 <h2>calculate your geek score using your reputation on stackoverflow and github</h2>
 </div>
 
 <div id="accordian" >
-<!--Start of each accordion item-->
   <div id="test-header" class="accordion_headings header_highlight" >get your score</div>
   <div id="test-content">
     <div class="accordion_child">
 	
 		<%= form_tag :action=> "register_user" %>
-		                       <!--<label for="user_email_id">Email:</label><br/>-->
-		                      <!-- <%= text_field "user", "email_id", :size => 20 %><br/> -->
 		                       <label for="user_stackoverflow_id">Stackoverflow URL:</label><br/>
-		                       <%= text_field "user", "stackoverflow_id", :size => 20 %> <div id="footer">Example: http://stackoverflow.com/users/231917/zengr </div><br/>
+		                       <%= text_field "user", "stackoverflow_id", :size => 20 %> 
+		<div id="footer">Example: http://stackoverflow.com/users/231917/zengr </div><br/>
 		                       <label for="user_github_id">Github ID:</label><br/>
-		                       <%= text_field "user", "github_id", :size => 20 %><div id="footer"> Example: utkarsh2012 </div><br/>
+		                       <%= text_field "user", "github_id", :size => 20 %>
+		<div id="footer"> Example: utkarsh2012 </div><br/>
+		
 		<%= submit_tag "Submit" %>
 		<br/>
 		
@@ -41,23 +41,37 @@
 	
 	</div>
   </div>
+
+
   <div id="test1-header" class="accordion_headings" >How it works?</div>
   <div id="test1-content">
     <div class="accordion_child">
 	You provide the your Stackoverflow.com URL and the Github.com. g33k score calculator hits the SO and Github Web services, get your SO reputation and Github repos, followers.
     </div>
-    
   </div>
 
-  <div id="test2-header" class="accordion_headings" >Binary <-> ASCII conversion</div>
+
+  <!-- <div id="test2-header" class="accordion_headings" >Binary <-> ASCII conversion</div>
   <div id="test2-content">
     <div class="accordion_child">	
-	
+		<%= form_tag :action=> "ascii_to_bin_converter" %>
+		                       <h3 for="user_ascii">ASCII:</h3><br/>
+		                       <%= text_area "user", "ascii", :size => 20 %><br/>
+	    <%= submit_tag "Convert to Binary" %>
+	<br>
+		<%= form_tag :action=> "bin_to_ascii_converter" %>
+			                       <h3 for="user_binary">Binary:</h3><br/>
+			                       <%= text_area "user", "binary", :size => 20 %><br/>
+		<%= submit_tag "Convert to ASCII" %>
+	<br/>
+
+			<%=
+				@converted_value.to_s
+			 %>
     </div>
-  </div>
+  </div> -->
 
   <div id="test3-header" class="accordion_headings" >Contact me</div>
-
   <div id="test3-content">
     <div class="accordion_child">
 	utkarsh2012 [at] gmail [dot] com <br>

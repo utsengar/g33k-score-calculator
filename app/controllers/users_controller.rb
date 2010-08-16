@@ -26,6 +26,18 @@ class UsersController < ApplicationController
     end
   end
   
+  def bin_to_ascii_converter
+      binary = params[:user][:binary]
+    	@converted_value = binary.gsub(/([01]{8})/){|b| b.to_i(2).chr} 
+  end
+  
+  def ascii_to_bin_converter
+        puts "hello world!!"
+      ascii = params[:user][:ascii]
+      @converted_value = ascii.gsub(/[A-Z]{1}/) {|a| a.unpack('B8')}
+  end
+  
+  
   private
   def service_call(stackoverflow_id, github_id)
     geekness = 0
