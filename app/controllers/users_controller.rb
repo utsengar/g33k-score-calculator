@@ -64,7 +64,7 @@ class UsersController < ApplicationController
       data_obj = JSON.parse(curl.body_str)
       
       array_data = data_obj['users']
-      user_Hash = array_data[0] #since we fetch only one user
+      user_Hash = array_data[0] #since we fetch only one user at a time
       
       #Get user data
       username = user_Hash["username"] #utkarsh2012
