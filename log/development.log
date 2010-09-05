@@ -4050,3 +4050,84 @@ Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
 Processing UsersController#register_user (for 127.0.0.1 at 2010-09-04 18:12:44) [GET]
 Rendering users/register_user
 Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Sun Sep 05 11:58:50 -0700 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-05 11:59:12) [GET]
+Rendering users/register_user
+Completed in 79ms (View: 77, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-05 12:05:01) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-05 12:05:37) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-05 12:06:05) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
