@@ -17,11 +17,11 @@
   <div id="test-header" class="accordion_headings header_highlight" >get your score</div>
   <div id="test-content">
     <div class="accordion_child">
-	
 		<%= form_tag :action=> "register_user" %>
 		                       <label for="user_stackoverflow_id">Stackoverflow URL:</label><br/>
 		                       <%= text_field "user", "stackoverflow_id", :size => 20 %> 
 		<div id="footer">Example: http://stackoverflow.com/users/231917/zengr </div><br/>
+		<label>OR/AND</label><br/><br/>
 		                       <label for="user_github_id">Github ID:</label><br/>
 		                       <%= text_field "user", "github_id", :size => 20 %>
 		<div id="footer"> Example: utkarsh2012 </div><br/>
@@ -46,7 +46,9 @@
   <div id="test1-header" class="accordion_headings" >How it works?</div>
   <div id="test1-content">
     <div class="accordion_child">
-	You provide the your Stackoverflow.com URL and the Github.com. g33k score calculator hits the SO and Github Web services, get your SO reputation and Github repos, followers.
+	You provide your Stackoverflow.com URL and/or the Github.com ID. g33k score calculator hits the SO and Github Web services, gets your SO reputation and Github repos+followers.<br/><br/>
+	If you have more than 1000 reputation on SO, then you get 100% from Stackoverflow's side. <br/>
+	If you have more than 10 followers and repos on Github, then you get 100% from Github's side.
     </div>
   </div>
 

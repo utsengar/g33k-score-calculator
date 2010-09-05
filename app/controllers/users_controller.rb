@@ -11,8 +11,9 @@ class UsersController < ApplicationController
      so_url = params[:user][:stackoverflow_id]
      github_id = params[:user][:github_id]
      
-     if(!so_url.empty? && !github_id.empty?)
-       #Make the service call and get the score
+     
+     if(!so_url.empty? || !github_id.empty?)
+       #Make the service call and get the score       
        geek_score = service_call(so_url, github_id)
        
        #return values
@@ -41,7 +42,7 @@ class UsersController < ApplicationController
   private
   def service_call(stackoverflow_id, github_id)
     geekness = 0
-    if !stackoverflow_id.nil?
+    if stackoverflow_id != ""
       so_id = stackoverflow_id.split("/")[4] #4th element is the unique ID
       url_so = "http://api.stackoverflow.com/1.0/users/" + so_id + "?type=jsontext" #create url here
       curl = Curl::Easy.new(url_so)
@@ -69,7 +70,7 @@ class UsersController < ApplicationController
       end
     end
     
-    if !github_id.nil?
+    if github_id != ""
       url_git = "http://github.com/api/v2/json/user/search/" + github_id #create url here
       curl = Curl::Easy.new(url_git)
       curl.perform
@@ -106,7 +107,12 @@ class UsersController < ApplicationController
       end
    end
    
-   return_array = [geekness, reputation, followers, repos]
+   if(github_id == "" || stackoverflow_id == "")
+      return_array = [2*geekness, reputation, followers, repos]
+   else
+      return_array = [geekness, reputation, followers, repos]
+   end
+   
    return return_array
   end
 end
