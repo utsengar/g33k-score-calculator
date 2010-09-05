@@ -1,6 +1,0 @@
-http://api.stackoverflow.com/1.0/users/231917
-http://api.stackoverflow.com/1.0/help
-http://stackapps.com/apps
-
-
-http://develop.github.com/p/users.html
