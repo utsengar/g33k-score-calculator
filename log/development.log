@@ -4131,3 +4131,952 @@ Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
 Processing UsersController#register_user (for 127.0.0.1 at 2010-09-05 12:06:05) [GET]
 Rendering users/register_user
 Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-05 12:09:20) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-05 12:09:53) [GET]
+Rendering users/register_user
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:47:18) [GET]
+Rendering users/register_user
+Completed in 91ms (View: 89, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:47:45) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:48:26) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:48:41) [POST]
+  Parameters: {"commit"=>"Convert to Binary", "authenticity_token"=>"Xrs27pqjg4SDmBYgoCt6CEHhFbCPoBByJEZ9K1jk0VQ=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>""}}
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:53:18) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:53:31) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:53:43) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:55:03) [GET]
+Rendering users/register_user
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:55:10) [GET]
+Rendering users/register_user
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:55:14) [GET]
+Rendering users/register_user
+Completed in 72ms (View: 70, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:56:21) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:56:38) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:57:05) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:57:15) [GET]
+Rendering users/register_user
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:57:28) [GET]
+Rendering users/register_user
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 14:57:40) [GET]
+Rendering users/register_user
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 15:00:02) [GET]
+Rendering users/register_user
+Completed in 72ms (View: 71, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 15:00:21) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 15:00:43) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 15:03:00) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 15:03:35) [GET]
+Rendering users/register_user
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-06 15:03:52) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  Fri Sep 10 14:26:43 -0700 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@global/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 14:27:01) [GET]
+Rendering users/register_user
+Completed in 78ms (View: 77, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-10 14:27:07) [GET]
+
+ActionController::RoutingError (No route matches "/create" with {:method=>:get}):
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-09-10 14:27:12) [GET]
+
+NameError (uninitialized constant UsersController::Review):
+  app/controllers/users_controller.rb:12:in `create'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.9ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:19:43) [GET]
+Rendering users/register_user
+Completed in 71ms (View: 69, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:19:50) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 535ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:20:18) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:20:51) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 469ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:21:36) [GET]
+Rendering users/register_user
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:21:41) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 372ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:21:54) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 527ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:22:00) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:22:04) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 376ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:23:48) [GET]
+Rendering users/register_user
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:29:55) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 504ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:32:01) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:32:06) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 495ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:41:35) [GET]
+Rendering users/register_user
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:41:39) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 490ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:42:37) [GET]
+Rendering users/register_user
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:42:42) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 593ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:42:48) [GET]
+Rendering users/register_user
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:43:33) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:43:37) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 431ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:45:13) [GET]
+Rendering users/register_user
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:45:20) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 500ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:46:03) [GET]
+Rendering users/register_user
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:46:08) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:46:12) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 380ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:46:21) [GET]
+Rendering users/register_user
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:46:26) [GET]
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:46:37) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 498ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:46:48) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"gffhfh", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>"dfdfdfgdfbfgb"}}
+Rendering users/register_user
+Completed in 1384ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:46:56) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 423ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:47:02) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>"dfvdfvdf"}}
+Rendering users/register_user
+Completed in 391ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:47:42) [GET]
+Rendering users/register_user
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:47:47) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 503ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:48:17) [GET]
+Rendering users/register_user
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:48:21) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 393ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:48:25) [GET]
+  Parameters: {"html"=>{"id"=>"register_user"}}
+Rendering users/register_user
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/?html[id]=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:48:32) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 377ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:48:41) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>"sdfsfsdfsdf"}}
+Rendering users/register_user
+Completed in 374ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:49:15) [GET]
+Rendering users/register_user
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:49:21) [GET]
+Rendering users/register_user
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:49:26) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 511ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 15:49:36) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 372ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 16:03:54) [GET]
+Rendering users/register_user
+ERROR: compiling _run_erb_app47views47users47register_user46html46erb RAISED compile error
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:21: syntax error, unexpected $undefined, expecting ')'
+...o_s); @output_buffer.concat "\n</head>\n\n<body onload=\"new...
+                              ^
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:21: syntax error, unexpected $undefined, expecting ')'
+...href=\"http://g33k.heroku.com\">g33k.score</a></h1>\n<h2>cal...
+                              ^
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:117: syntax error, unexpected kENSURE, expecting ')'
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:119: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47users47register_user46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>g33k.Score Calculator</title>\n<link rel=\"stylesheet\" href=\"stylesheets/style.css\" type=\"text/css\" media=\"screen\" />\n<!-- Google Analytics Start -->\n<script type=\"text/javascript\">\n\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-18363992-1']);\n  _gaq.push(['_trackPageview']);\n\n  (function() {\n    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n</script>\n<!-- Google Analytics End -->\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( javascript_include_tag 'jquery', 'application' , "accordian.pack"").to_s); @output_buffer.concat "\n</head>\n\n<body onload=\"new Accordian('accordian',3,'header_highlight');\">\n<div id=\"header\">\n<h1><a href=\"http://g33k.heroku.com\">g33k.score</a></h1>\n<h2>calculate your geek score using your reputation on stackoverflow and github</h2>\n</div>\n\n<div id=\"accordian\" >\n  <div id=\"test-header\" class=\"accordion_headings header_highlight\" >get your score</div>\n  <div id=\"test-content\">\n    <div class=\"accordion_child\">\n\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( form_tag :action=> "register_user" , :html => {:id => "register_user" }).to_s); @output_buffer.concat "\n\t\t                       <label for=\"user_stackoverflow_id\">Stackoverflow URL:</label><br/>\n\t\t                       "
+
+; @output_buffer.concat(( text_field "user", "stackoverflow_id", :size => 20 ).to_s); @output_buffer.concat " \n\t\t<div id=\"footer\">Example: http://stackoverflow.com/users/231917/zengr </div><br/>\n\t\t<label>OR/AND</label><br/><br/>\n\t\t                       <label for=\"user_github_id\">Github ID:</label><br/>\n\t\t                       "
+
+
+
+; @output_buffer.concat(( text_field "user", "github_id", :size => 20 ).to_s); @output_buffer.concat "\n\t\t<div id=\"footer\"> Example: utkarsh2012 </div><br/>\n\t\t\n\t\t"
+
+
+; @output_buffer.concat(( submit_tag "Submit" ).to_s); @output_buffer.concat "\n\t\t<br/>\n\t\t\n\t\t"
+
+
+; @output_buffer.concat((
+		if @final_value != nil
+			"<h2>You are " + @final_value.to_s + "% geek!</h2>" + 
+			"<p> Why? <br>"+ 
+			"Your Stackoverflow reputation: " + @so_reputation.to_s + "<br>" +
+			"Your Github followers: "+@gh_followers.to_s + "<br>" +
+			"Your Github Repos: "+ @gh_repos.to_s + "</p>"
+		end
+		 ).to_s); @output_buffer.concat "\n\t\n\t<br/><br/>\n\t<b>How it works?</b> <br/>\n\tYou provide your Stackoverflow.com URL and/or the Github.com ID. g33k score calculator hits the SO and Github Web services, gets your SO reputation and Github repos+followers.<br/><br/>\n\tIf you have more than 1000 reputation on SO, then you get 100% from Stackoverflow's side. <br/>\n\tIf you have more than 10 followers and repos on Github, then you get 100% from Github's side.<br/>\n\tGithub repo: http://github.com/utkarsh2012/g33k-score-calculator\n\t</div>\n  </div>\n\n  <div id=\"test1-header\" class=\"accordion_headings bin_ascii_conv\" >Binary <-> ASCII conversion</div>\n  <div id=\"test1-content\">\n    <div class=\"accordion_child\">\n\t\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( form_tag :action=> "ascii_to_bin_converter" ).to_s); @output_buffer.concat "\n\t\t\t                       <h3 for=\"user_ascii\">ASCII:</h3><br/>\n\t\t\t                       "
+
+; @output_buffer.concat(( text_area "user", "ascii", :size => 20 ).to_s); @output_buffer.concat "<br/>\n\t\t    "
+; @output_buffer.concat(( submit_tag "Convert to Binary" ).to_s); @output_buffer.concat "\n\t\t<br>\n\t\t\t"
+
+; @output_buffer.concat(( form_tag :action=> "bin_to_ascii_converter" ).to_s); @output_buffer.concat "\n\t\t\t\t                       <h3 for=\"user_binary\">Binary:</h3><br/>\n\t\t\t\t                       "
+
+; @output_buffer.concat(( text_area "user", "binary", :size => 20 ).to_s); @output_buffer.concat "<br/>\n\t\t\t"
+; @output_buffer.concat(( submit_tag "Convert to ASCII" ).to_s); @output_buffer.concat "\n\t\t<br/>\n\t\t\t\t"
+
+; @output_buffer.concat((
+					@converted_value.to_s
+				 ).to_s); @output_buffer.concat "\n    </div>\n  </div>\n\n\n  <!-- <div id=\"test2-header\" class=\"accordion_headings\" >Binary <-> ASCII conversion</div>\n  <div id=\"test2-content\">\n    <div class=\"accordion_child\">\t\n    </div>\n  </div> -->\n\n  <div id=\"test3-header\" class=\"accordion_headings\" >Contact me</div>\n  <div id=\"test3-content\">\n    <div class=\"accordion_child\">\n\tutkarsh2012 [at] gmail [dot] com <br>\n\tutkarshsengar.com\n    </div>\n    \n  </div>\n</div>\n\n<div id=\"footer\">\n<p class=\"validate\"><a href=\"http://validator.w3.org/check?uri=referer\">XHTML</a> | <a href=\"http://jigsaw.w3.org/css-validator/\">CSS</a><br /><a href=\"#content\">Top</a></p>\t\t\n\n\302\251<a href=\"http://utkarshsengar.com\">Utkarsh Sengar</a>.</p><br />\n<p>UI: <a href=\"http://www.sixshootermedia.com\">Six Shooter Media</a>.\n<br/>\n</div>\n\n<div class=\"ribbon\">\n  <a href=\"http://github.com/utkarsh2012\">Fork me on GitHub</a>\n</div>\n\n\n</body>\n\n</html>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:119:in `compile!'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+/Users/utkarsh/.rvm/gems/ruby-1.8.7-p299@rails/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:21: syntax error, unexpected $undefined, expecting ')'
+...o_s); @output_buffer.concat "\n</head>\n\n<body onload=\"new...
+                              ^
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:21: syntax error, unexpected $undefined, expecting ')'
+...href=\"http://g33k.heroku.com\">g33k.score</a></h1>\n<h2>cal...
+                              ^
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:117: syntax error, unexpected kENSURE, expecting ')'
+/Users/utkarsh/dev/rails/g33k-app/app/views/users/register_user.html.erb:119: syntax error, unexpected kEND, expecting ')') on line #21 of app/views/users/register_user.html.erb:
+18:   })();
+19: </script>
+20: <!-- Google Analytics End -->
+21: <%= javascript_include_tag 'jquery', 'application' , "accordian.pack""%>
+22: </head>
+23: 
+24: <body onload="new Accordian('accordian',3,'header_highlight');">
+
+    app/views/users/register_user.html.erb:119:in `compile!'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.7ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 16:04:24) [GET]
+Rendering users/register_user
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 16:04:30) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 565ms (View: 7, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 16:04:40) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"0Tu4DgbgDrk0y6Bzd6oWoY9y5Hx+Gx8kqO4nn3BQg/Y=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>"cdscscsvsd"}}
+Rendering users/register_user
+Completed in 378ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 17:44:08) [GET]
+Rendering users/register_user
+Completed in 91ms (View: 88, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 17:44:14) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"QDdDNu1zbw3lUxhxAdBm5hsvE7RavylKkxWVQ9C5Qoo=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 613ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 17:44:52) [GET]
+Rendering users/register_user
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 17:45:38) [GET]
+Rendering users/register_user
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 17:45:44) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"QDdDNu1zbw3lUxhxAdBm5hsvE7RavylKkxWVQ9C5Qoo=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 549ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 17:46:50) [GET]
+Rendering users/register_user
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 17:46:54) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"QDdDNu1zbw3lUxhxAdBm5hsvE7RavylKkxWVQ9C5Qoo=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 630ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 17:57:01) [GET]
+Rendering users/register_user
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 17:57:06) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"QDdDNu1zbw3lUxhxAdBm5hsvE7RavylKkxWVQ9C5Qoo=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 534ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 18:00:15) [GET]
+Rendering users/register_user
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 18:00:24) [GET]
+Rendering users/register_user
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 18:00:30) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"QDdDNu1zbw3lUxhxAdBm5hsvE7RavylKkxWVQ9C5Qoo=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 1027ms (View: 4, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 18:01:58) [GET]
+Rendering users/register_user
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.product) on line #47 of app/views/users/register_user.html.erb:
+44: 		<br/>
+45: 		
+46: 		$("#register_user").before('<div id="flash_notice"><%= escape_javascript(flash.delete(:notice)) %></div>');
+47: 		$("#register_user").html("<%= pluralize(@review.product.reviews.count, 'Review') %>");
+48: 		$("#register_user").append("<%= escape_javascript(render(:partial => @review)) %>");
+49: 		$("#register_user")[0].reset();
+50: 		
+
+    app/views/users/register_user.html.erb:47
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (100.1ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 18:04:45) [GET]
+
+ActionView::MissingTemplate (Missing template users/register_user.erb in view path app/views):
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/utkarsh/.rvm/rubies/ruby-1.8.7-p299/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 18:05:19) [GET]
+Rendering users/register_user
+Completed in 67ms (View: 65, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2010-09-10 18:05:24) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"QDdDNu1zbw3lUxhxAdBm5hsvE7RavylKkxWVQ9C5Qoo=", "user"=>{"binary"=>"", "github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr", "ascii"=>""}}
+Rendering users/register_user
+Completed in 619ms (View: 6, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:31:28) [GET]
+Rendering users/register_user
+Completed in 96ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:32:12) [GET]
+Rendering users/register_user
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:32:40) [GET]
+Rendering users/register_user
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:33:14) [GET]
+Rendering users/register_user
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:33:16) [GET]
+Rendering users/register_user
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:33:25) [GET]
+Rendering users/register_user
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:33:55) [GET]
+Rendering users/register_user
+Completed in 105ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:34:01) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Convert to Binary", "authenticity_token"=>"cSuJ5PE7hXRGS0prUCkAfmTRPfvc7053h/UOzezQnxY=", "user"=>{"binary"=>"", "github_id"=>"", "stackoverflow_id"=>"", "ascii"=>""}}
+Rendering users/register_user
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:34:29) [GET]
+Rendering users/register_user
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:34:51) [GET]
+Rendering users/register_user
+Completed in 107ms (View: 104, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:34:57) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"cSuJ5PE7hXRGS0prUCkAfmTRPfvc7053h/UOzezQnxY=", "user"=>{"github_id"=>"", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 550ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:35:16) [GET]
+Rendering users/register_user
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:36:20) [GET]
+Rendering users/register_user
+Completed in 99ms (View: 97, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:36:28) [GET]
+Rendering users/register_user
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:37:48) [GET]
+Rendering users/register_user
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:38:18) [GET]
+Rendering users/register_user
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:38:27) [GET]
+Rendering users/register_user
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:38:36) [GET]
+Rendering users/register_user
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:39:05) [GET]
+Rendering users/register_user
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:39:25) [GET]
+Rendering users/register_user
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:40:03) [GET]
+Rendering users/register_user
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#register_user (for 127.0.0.1 at 2011-03-06 21:40:07) [POST]
+  Parameters: {"html"=>{"id"=>"register_user"}, "commit"=>"Submit", "authenticity_token"=>"cSuJ5PE7hXRGS0prUCkAfmTRPfvc7053h/UOzezQnxY=", "user"=>{"github_id"=>"utkarsh2012", "stackoverflow_id"=>"http://stackoverflow.com/users/231917/zengr"}}
+Rendering users/register_user
+Completed in 683ms (View: 5, DB: 0) | 200 OK [http://localhost/?html%5Bid%5D=register_user]

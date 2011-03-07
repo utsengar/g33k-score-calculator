@@ -1,8 +1,22 @@
+#http://railscasts.com/episodes/136-jquery
+#http://www.notgeeklycorrect.com/english/2009/05/18/beginners-guide-to-jquery-ruby-on-rails/
+
 require 'curb'
 require 'json'
 require "active_support/all"
 
 class UsersController < ApplicationController
+  
+  
+
+  def create
+    @review = Review.create!(params[:review])
+    flash[:notice] = "Thank you for reviewing this product"
+    respond_to do |format|
+      format.html { redirect_to @review.product }
+      format.js
+    end
+  end
   
   #Point of entry
   def register_user
@@ -11,16 +25,9 @@ class UsersController < ApplicationController
      so_url = params[:user][:stackoverflow_id]
      github_id = params[:user][:github_id]
      
-     
      if(!so_url.empty? || !github_id.empty?)
        #Make the service call and get the score       
-       geek_score = service_call(so_url, github_id)
-       
-       #return values
-       @final_value = geek_score[0]
-       @so_reputation = geek_score[1]
-       @gh_followers = geek_score[2]
-       @gh_repos = geek_score[3]
+       @geek_score = service_call(so_url, github_id)
      else
        
      end
